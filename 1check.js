@@ -43,10 +43,7 @@ function definaTempo() {
       break;
       case tempoescolhido < tempopadrao:
       msgtempoescolhido = "Tempo insuficiente"
-      break;
-      case tempoescolhido = " ":
-      msgtempoescolhido = "Erro - Prato Inexistente"
-      break;
+      break;      
       default:
       msgtempoescolhido = "Prato pronto, bom apetite!!!"; 
       
